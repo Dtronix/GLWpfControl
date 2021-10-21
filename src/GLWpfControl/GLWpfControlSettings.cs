@@ -1,5 +1,6 @@
 using System;
-using JetBrains.Annotations;
+using System.Diagnostics.CodeAnalysis;
+using System.Diagnostics.Contracts;
 using OpenTK.Windowing.Common;
 
 namespace OpenTK.Wpf {

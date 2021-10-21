@@ -1,8 +1,8 @@
 using System;
+using System.Diagnostics.CodeAnalysis;
 using System.Threading;
 using System.Windows;
 using System.Windows.Interop;
-using JetBrains.Annotations;
 using OpenTK.Graphics.Wgl;
 using OpenTK.Windowing.Common;
 using OpenTK.Windowing.Desktop;

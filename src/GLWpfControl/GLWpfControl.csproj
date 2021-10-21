@@ -1,15 +1,11 @@
-<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
-
+<Project Sdk="Microsoft.NET.Sdk">
 <PropertyGroup>
-        <TargetFramework>netcoreapp3.1</TargetFramework>
-        <UseWPF>true</UseWPF>
-        <RootNamespace>OpenTK.Wpf</RootNamespace>
-        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-    </PropertyGroup>
-
-    <ItemGroup>
-      <PackageReference Include="JetBrains.Annotations" Version="2020.1.0" />
-      <PackageReference Include="OpenTK" Version="4.3.0" />
-    </ItemGroup>
-
+  <TargetFramework>net5.0-windows</TargetFramework>
+  <UseWPF>true</UseWPF>
+  <Version>4.1.0</Version>
+  <RootNamespace>OpenTK.Wpf</RootNamespace>
+</PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="OpenTK" Version="4.6.7" />
+  </ItemGroup>
 </Project>

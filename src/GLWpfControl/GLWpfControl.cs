@@ -4,7 +4,6 @@ using System.Diagnostics;
 using System.Globalization;
 using System.Windows;
 using System.Windows.Media;
-using JetBrains.Annotations;
 
 namespace OpenTK.Wpf
 {
@@ -40,8 +39,8 @@ namespace OpenTK.Wpf
         // Fields
         // -----------------------------------
         
-        [CanBeNull] private GLWpfControlSettings _settings;
-        [CanBeNull] private GLWpfControlRenderer _renderer;
+        private GLWpfControlSettings _settings;
+        private GLWpfControlRenderer _renderer;
         private bool _needsRedraw;
 
         // -----------------------------------
